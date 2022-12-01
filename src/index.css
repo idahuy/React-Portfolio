@@ -279,3 +279,93 @@ header nav ul li a:hover {
   transition: .5s ease;
 }
 /*end "Contact me" styles*/
+
+/*Start portfolio section*/
+
+.portfolio {
+  background: var(--primary-color);
+}
+
+
+.portfolio {
+  margin: 50px auto;
+  padding-bottom: 50px;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--tertiary-color);
+}
+
+
+.portfolio:nth-child(even) {
+  border-bottom: 1px solid var(--tertiary-color);
+}
+
+.portfolio:last-child {
+  border-bottom: none;
+}
+
+.portfolio-text h4 {
+  font-size: 26px;
+  line-height: 1.5;
+  color: var(--secondary-color);
+}
+
+.portfolio-info {
+  flex: 2 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.portfolio-img {
+  flex: 1 12%;
+  margin-right: 250px;
+  opacity: 0.5;
+  filter: alpha(opacity=40);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.portfolio-img img {
+  max-width: 200%;
+  max-height: 100%;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.portfolio-img:hover {
+  opacity: 1.0;
+  /*    transition: .5s ease;*/
+  filter: alpha(opacity=100);
+  transform: scale(1.01);
+}
+
+.portfolio-img img:hover {
+  /*    transition: .5s ease-in-out;*/
+  border: 5px solid #f2e5ac;
+  transform: scale(1.1);
+}
+
+.portfolio-img img:hover::after {
+  transition: .5s ease;
+
+}
+
+.portfolio-text {
+  flex: 12;
+}
+
+.portfolio-text p {
+  color: var(--tertiary-color);
+  font-size: 18px;
+}
+/*End portfolio section*/
