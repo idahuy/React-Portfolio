@@ -26,7 +26,7 @@ function Header(props) {
           <h2>Welcome</h2>
           <p>
             Welcome to Huy's portfolio page built with React. Here,
-            you can find some samples of all of my projects through my web development journey.
+            you can find some samples of all of my projects through my web development journey, download my resume, and find my contact information.
           </p>
         </div>
       </section>

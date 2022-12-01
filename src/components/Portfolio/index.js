@@ -10,7 +10,7 @@ import noteTaker from "../../assets/portfolio/notetaker.png"
 function Portfolio() {
   return (
     <div>
-      <section id="work" className="portfolio">
+      <section id="work" className="portfolios">
         <div className="flex-row">
           <h2 className="section-title secondary-border">Work</h2>
         </div>
