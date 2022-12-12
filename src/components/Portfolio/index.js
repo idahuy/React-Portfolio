@@ -5,7 +5,8 @@ import jate from "../../assets/portfolio/JATE.png";
 import snapi from "../../assets/portfolio/SNAPI.png";
 import teamProfileGenerator from "../../assets/portfolio/teamprofilegenerator.png";
 import employeeTracker from "../../assets/portfolio/employeetracker.png";
-import noteTaker from "../../assets/portfolio/notetaker.png"
+import noteTaker from "../../assets/portfolio/notetaker.png";
+import onlyCooks from "../../assets/portfolio/onlycooks.png";
 
 function Portfolio() {
   return (
@@ -13,6 +14,28 @@ function Portfolio() {
       <section id="work" className="portfolios">
         <div className="flex-row">
           <h2 className="section-title secondary-border">Work</h2>
+        </div>
+
+        <div className="portfolio">
+          <div className="portfolio-info">
+            <div className="portfolio-img">
+              <a href="https://stormy-reef-30980.herokuapp.com/">
+                {" "}
+                <img
+                  src={onlyCooks}
+                  className="my-2"
+                  style={{ width: "100%" }}
+                  alt="feddit"
+                />
+              </a>
+            </div>
+            <div className="portfolio-text">
+              <h4>OnlyCooks</h4>
+              <p>
+              OnlyCooks is a blogging site that helps to connect people who are interested in cooking, creating, and sharing recipes! Come dicuss anything with your fellow chefs about any types of cuisine, anytime, any place, for any reason!
+              </p>
+            </div>
+          </div>
         </div>
 
         <div className="portfolio">
