@@ -6,7 +6,7 @@ import snapi from "../../assets/portfolio/SNAPI.png";
 import teamProfileGenerator from "../../assets/portfolio/teamprofilegenerator.png";
 import employeeTracker from "../../assets/portfolio/employeetracker.png";
 import noteTaker from "../../assets/portfolio/notetaker.png";
-import onlyCooks from "../../assets/portfolio/onlycooks.png";
+import onlyCooks from "../../assets/portfolio/onlycook.png";
 
 function Portfolio() {
   return (
